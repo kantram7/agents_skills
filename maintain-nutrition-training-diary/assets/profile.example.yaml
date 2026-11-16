@@ -1,0 +1,38 @@
+# Пустой шаблон. Заполненную копию хранить вне публичного репозитория.
+# null = неизвестно; цели, данные тела, виды спорта и источники не предзаполнены.
+profile_version: 1
+owner: null
+source:
+  backend: google_sheets
+  storage: google_drive
+  locator: null
+  connection: google-drive:google-drive + google-drive:google-sheets
+  write_enabled: null
+reserve:
+  export_format: xlsx
+  mode: on_demand_snapshot
+  parallel_logging: false
+localization:
+  language: null
+  timezone: null
+  weight_unit: null
+  distance_unit: null
+  energy_unit: null
+schema_template: default-schema-v2
+schema: {}
+personalization_source: null
+enabled_modules: [nutrition, activity, wellbeing, measurements, supplements, history]
+activity_types: []
+logging:
+  water_mode: null
+  supplements_in_nutrition: false
+  supplement_nutrition_overrides: []
+  nutrition_decimals: 1
+  keep_product_urls: null
+  save_training_plans: explicit_request_only
+context_source: null
+known_data_limits: []
+display:
+  show_daily_nutrition_after_entry: null
+  show_energy_expenditure_after_entry: null
+  show_used_modules: true

@@ -1,0 +1,19 @@
+# Local personal data and connection secrets
+private/
+personal/
+local-data/
+**/profile.local.*
+**/diary.local.*
+**/personalization.local.*
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
